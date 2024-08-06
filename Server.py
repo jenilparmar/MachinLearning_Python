@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 # Load the model from a file
-model = joblib.load('python/linear_regression_model.pkl')
+model = joblib.load('linear_regression_model.pkl')
 
 app = Flask(__name__)
 CORS(app)
